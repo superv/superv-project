@@ -1,7 +1,10 @@
 {
     "name": "laravel/laravel",
     "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "type": "project",
     "require": {
@@ -36,6 +39,13 @@
         "laravel": {
             "dont-discover": [
             ]
+        },
+        "merge-plugin": {
+            "include": [
+                "droplets/*/*/*/composer.json"
+            ],
+            "recurse": true,
+            "replace": false
         }
     },
     "scripts": {
