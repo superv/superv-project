@@ -9,7 +9,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "supervjs-core": "^0.2.6",
+    "supervjs-core": "^0.4.2",
     "vue": "^2.5.17"
   },
   "devDependencies": {
