@@ -13,6 +13,8 @@ Ports are the gates that open your application to outside word. A basic Laravel 
 
 With `ports` concept, you can easily define ports with different hostnames and register port-specific routes. 
 
+
+
 ## Modules
 
 Nucleo, one of the most power modules of SuperV provides "Laravel Nova" like SPA admin panel.
@@ -29,7 +31,6 @@ SuperV needs two parameters in your .env file
 `SV_HOSTNAME`: This is the base domain for generation port hostnames. Usually it is your app domain. You should set this before/within installation
 
 
-Before starting installation
 
 ### Installing as a fresh project
 
@@ -37,6 +38,8 @@ Create project with composer
 
 ```sh
 composer create-project superv/superv-project 0.4.x-dev@dev
+
+php artisan superv:install
 ```
 
 
@@ -46,13 +49,12 @@ composer create-project superv/superv-project 0.4.x-dev@dev
 ..soon
 
 
+
 ### SPA Configuration
 
 ```sh
 
 cp resources/nucleo/.env.example resources/nucleo/.env
-
-php artisan superv:install
 
 cd resources/nucleo
 
@@ -61,6 +63,7 @@ yarn
 yarn serve --open
 
 ```
+
 
 
 ## License
