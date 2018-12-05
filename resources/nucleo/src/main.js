@@ -1,16 +1,15 @@
 import Vue from 'vue'
-import modules from '../../../storage/superv/nucleo/modules.js'
 
-import SuperVCore from 'supervjs-core'
-import { LayoutMixin } from 'supervjs-core/lib'
+import SuperVJS from 'superv-js'
+import { LayoutMixin } from 'superv-js/lib'
 
 Vue.config.productionTip = false
-Vue.use(SuperVCore, {
+Vue.use(SuperVJS, {
     config: {
       name: process.env.VUE_APP_NAME,
       apiUrl: process.env.VUE_APP_API_URL
     },
-    modules: modules
+  modules: []
   }
 )
 
