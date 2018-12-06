@@ -41,7 +41,7 @@
         },
         "merge-plugin": {
             "include": [
-                "droplets/*/*/*/composer.json"
+                "addons/*/*/*/composer.json"
             ],
             "recurse": true,
             "replace": false

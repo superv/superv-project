@@ -1,9 +1,10 @@
 module.exports = {
-  baseUrl: '/',
+  baseUrl: '/superv/',
 
-  outputDir: '../../../../../public/acp/',
+  outputDir: '../../public/vendor/superv/',
 
   indexPath: process.env.NODE_ENV === 'production'
-    ? '../../resources/views/index.blade.php'
-    : 'index.html'
+    ? '../../../resources/views/superv.blade.php'
+    : 'index.html',
+
 }
