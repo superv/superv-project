@@ -15,7 +15,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/superv{path}', function () {
-    return view('superv::spa');
-})->where('path', '.*');
-
