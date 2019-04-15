@@ -10,8 +10,8 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "superv/acp-drop": "dev-develop",
-        "superv/platform": "dev-develop"
+        "superv/acp-drop": "dev-master",
+        "superv/platform": "dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
