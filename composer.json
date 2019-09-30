@@ -7,7 +7,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.0",
         "laravel/tinker": "^1.0",
-        "superv/acp-drop": "0.20.x-dev",
+        "superv/acp": "0.20.x-dev",
         "superv/platform": "0.20.x-dev"
     },
     "require-dev": {
