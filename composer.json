@@ -5,10 +5,10 @@
     "require": {
         "php": "^7.2",
         "fideloper/proxy": "^4.0",
-        "laravel/framework": "^6.0",
+        "laravel/framework": "^6.2",
         "laravel/tinker": "^1.0",
-        "superv/acp": "0.20.x-dev",
-        "superv/platform": "0.20.x-dev"
+        "superv/acp": "0.21.x-dev",
+        "superv/platform": "0.21.x-dev"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
