@@ -20,7 +20,11 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": true,
+            "superv/composer-plugin": true
+        }
     },
     "extra": {
         "laravel": {
