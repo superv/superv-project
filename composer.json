@@ -7,8 +7,8 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.4",
         "laravel/tinker": "^1.0",
-        "superv/admin-panel": "^0.22",
-        "superv/platform": "^0.22"
+        "superv/admin-panel": "^0.23",
+        "superv/platform": "^0.23"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
