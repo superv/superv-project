@@ -3,12 +3,11 @@
     "type": "project",
     "description": "superV Platform",
     "require": {
-        "php": "^7.2",
+        "php": "^7.4",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.4",
         "laravel/tinker": "^1.0",
-        "superv/admin-panel": "^0.23",
-        "superv/platform": "^0.23"
+        "superv/platform": "^0.25"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
